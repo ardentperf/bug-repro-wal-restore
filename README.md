@@ -10,6 +10,8 @@ After the initial WAL download is missed for the new timeline, Postgres replay f
 
 The purpose of this reproduction was to diagnose and fully understand the failure, test the fix, and improve general diagnostics and observability for future similar issues.
 
+Repro is deterministic and consistent. Example output at [run-logs/](run-logs/)
+
 ## Repro Versions
 
 - AKS/Kubernetes: `v1.36.1` *(latest)*
